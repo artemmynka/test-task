@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+}
+/* Header */
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #6c5b75;
+    width: 100%;
+    height: 5vh;
+}
+/* Flex-wrapper */
+.wrapper {
+    width: 100%;
+    height: 95vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.aside {
+    background-color: #464646;
+    width: 200px;
+    height: 100%;
+}
+.main {
+    background-color: #d7d7d7;
+    width: 784px;
+    height: 100%;
+}
+.form__container {
+    width: 350px;
+    margin: 150px auto;
+}
+.heading {
+    font-family: "Arial Black";
+    color: #393939;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.progress__bar {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+.bar {
+    width: 68px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #898989;
+    transition: 0.3s linear;
+}
+
+form{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+    height: 44px;
+    padding: 15px;
+    margin: 0 0 35px 0;
+}
+.input:focus, .submit:focus{
+    outline: 0;
+    border: 1px solid #000;
+    box-shadow: 0 0 3px #000;
+}
+.button_container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 30px;
+}
+.submit {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #393939;
+    align-self: flex-end;
+    border: 1px solid #fff;
+}
+.active{
+    background-color: #82ca9c;
+}
